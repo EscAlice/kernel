@@ -1,7 +1,7 @@
 import { call, put, select, take, takeEvery, takeLatest, fork } from 'redux-saga/effects'
 import { waitingForRenderer } from 'shared/loading/types'
 import { initializeEngine } from 'unity-interface/dcl'
-import type { UnityGame } from '@dcl/unity-renderer/src/index'
+import type { UnityGame } from '@zqbflynn/unity-renderer/src/index'
 import { InitializeRenderer } from './actions'
 import { getParcelLoadingStarted } from './selectors'
 import { RENDERER_INITIALIZE } from './types'

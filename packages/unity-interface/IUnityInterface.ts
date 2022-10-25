@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { Vector3 } from '@dcl/ecs-math'
 import { QuestForRenderer } from '@dcl/ecs-quests/@dcl/types'
-import type { UnityGame } from '@dcl/unity-renderer/src'
+import type { UnityGame } from '@zqbflynn/unity-renderer/src'
 import { Observable } from 'mz-observable'
 import type { MinimapSceneInfo } from '@dcl/legacy-ecs'
 import { AirdropInfo } from '../shared/airdrops/interface'

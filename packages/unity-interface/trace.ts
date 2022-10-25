@@ -1,4 +1,4 @@
-import type { UnityGame } from '@dcl/unity-renderer/src'
+import type { UnityGame } from '@zqbflynn/unity-renderer/src'
 import { TRACE_RENDERER } from 'config'
 import {
   incrementMessageFromKernelToRenderer,

@@ -3,7 +3,7 @@
 import { initializeRenderer } from 'shared/renderer/actions'
 import { ensureUnityInterface } from 'shared/renderer'
 import { CommonRendererOptions, loadUnity } from './loader'
-import type { UnityGame } from '@dcl/unity-renderer/src/index'
+import type { UnityGame } from '@zqbflynn/unity-renderer/src/index'
 import type { KernelOptions } from '@dcl/kernel-interface'
 
 import { initializeUnityEditor } from './wsEditorAdapter'

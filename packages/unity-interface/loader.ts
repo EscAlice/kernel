@@ -1,5 +1,5 @@
 import future from 'fp-future'
-import type * as _TheRenderer from '@dcl/unity-renderer/src/index'
+import type * as _TheRenderer from '@zqbflynn/unity-renderer/src/index'
 import { trackEvent } from 'shared/analytics'
 import { BringDownClientAndShowError } from 'shared/loading/ReportFatalError'
 

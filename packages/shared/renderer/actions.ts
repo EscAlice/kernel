@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 
-import type { UnityGame } from '@dcl/unity-renderer/src/index'
+import type { UnityGame } from '@zqbflynn/unity-renderer/src/index'
 
 import { RENDERER_INITIALIZED_CORRECTLY, PARCEL_LOADING_STARTED, RENDERER_INITIALIZE, RENDERER_READY } from './types'
 
