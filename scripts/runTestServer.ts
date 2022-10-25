@@ -53,7 +53,7 @@ const server = http.createServer(app)
     })
   )
 
-  app.use('/@/artifacts/unity-renderer', express.static(path.dirname(require.resolve('@dcl/unity-renderer'))))
+  app.use('/@/artifacts/unity-renderer', express.static(path.dirname(require.resolve('@zqbflynn/unity-renderer'))))
 
   app.use('/default-profile', express.static(resolve(__dirname, '../static/default-profile')))
 
